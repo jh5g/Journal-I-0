@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="JournalIO.exe" version="1.0.0.1" publicKeyToken="0a5aa324256f94bf" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="JournalIO" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="JournalIO.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JournalIO.exe" size="16296">
+      <assemblyIdentity name="JournalIO" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>mOhtxTZxBUM306nS1Jte5cohH5URZshpGtMfl1TQkaM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="664576">
+      <assemblyIdentity name="Newtonsoft.Json" version="11.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>5foexyBf9sypXrFFYOHHDX056G06iVUkSBR9y4kkMEg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="JournalIO.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=HERDY\Jacob" issuerKeyHash="11937c8ec44308d8e188d411aef2c1b24de8e280" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>hd4Asp0m3XgXV70DV543q5q3/mQYftjTP9UlTdaJM24=</DigestValue></Reference></SignedInfo><SignatureValue>KuGt3Mytbz0qvjOFO80Mm9EIh1FFPTjO4HncQTQCH5dz7Xw6C1xTwU//GsmHpwcst6yL0VZ0m8shAwgWmopUh1yJ0vNqBFPRefZJ/YoskyC11vKLG57fZOB3fUu7BRRDrw4zY2QeN/5wTz7ain0LUOW/V7BkVJQiDnCh/Unmk/U=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>7OR0wo9RT39ShLhh02GPkGQtwhSa3xi3BCXRQraCtZ2V+VMx/JPEBmGy7GXiFG+ytYkWLStd3N96Y4M0ctLEgpLFZ9elO7sS0cYL+q20UUuZzsAApBEMyHh0FlyemRGX23Kei2Py5lF+niQtubCrqZZvMqOi7KGf4ghtLaCI/sk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6e3389d64d25d53fd3d87e1864feb79aab379e5703bd571778dd269db200de85" Description="" Url=""><as:assemblyIdentity name="JournalIO.exe" version="1.0.0.1" publicKeyToken="0a5aa324256f94bf" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HERDY\Jacob</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>dFEiVuXhgBzUzKGQp0MJnWk+BHFJB9qJPGi3bWDUb7c=</DigestValue></Reference></SignedInfo><SignatureValue>kUhqbHCZ102gS75FNN9mS8dhL3LVJtGw/6p2mzyIRzlIJoEQmh2mL3emazuV+2jNRdzdHGJAAI7Kyu/WTr6caQcLVS/FUKNPp8y6Fa1KR+Uaz+wqMGQXWXbVinB4+iQUT49abCG3V3NmA5GutsF0XiD9BKwpIPFKCkYeOL3aXPU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>7OR0wo9RT39ShLhh02GPkGQtwhSa3xi3BCXRQraCtZ2V+VMx/JPEBmGy7GXiFG+ytYkWLStd3N96Y4M0ctLEgpLFZ9elO7sS0cYL+q20UUuZzsAApBEMyHh0FlyemRGX23Kei2Py5lF+niQtubCrqZZvMqOi7KGf4ghtLaCI/sk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQMreXm2wvp41CzFOZg7+gpDANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYASABFAFIARABZAFwASgBhAGMAbwBiMB4XDTE4MDMwNDE5MTc1NFoXDTE5MDMwNTAxMTc1NFowITEfMB0GA1UEAx4WAEgARQBSAEQAWQBcAEoAYQBjAG8AYjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA7OR0wo9RT39ShLhh02GPkGQtwhSa3xi3BCXRQraCtZ2V+VMx/JPEBmGy7GXiFG+ytYkWLStd3N96Y4M0ctLEgpLFZ9elO7sS0cYL+q20UUuZzsAApBEMyHh0FlyemRGX23Kei2Py5lF+niQtubCrqZZvMqOi7KGf4ghtLaCI/skCAwEAATANBgkqhkiG9w0BAQsFAAOBgQCJh9OEXuVejgAicxYwlZlcl53ukBWN2RyFhEeOijCQHV9HWynFure0pxS8PCdV2RZFcdDy1sOF+07QuGX7PAeq00KO+xeVha88bpZ5iN01P/JACWObTcPTJ2/yVoS49z4kcHnYGCZ5HuzokN19dyCXrlpSbfIfkHjgb+kg4lK6YQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
