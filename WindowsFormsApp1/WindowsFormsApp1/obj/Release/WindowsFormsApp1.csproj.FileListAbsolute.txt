@@ -1,0 +1,16 @@
+C:\nodeSCRIPT\C#\Journal-IO\WindowsFormsApp1\WindowsFormsApp1\bin\Release\JournalIO.exe.config
+C:\nodeSCRIPT\C#\Journal-IO\WindowsFormsApp1\WindowsFormsApp1\bin\Release\JournalIO.exe.manifest
+C:\nodeSCRIPT\C#\Journal-IO\WindowsFormsApp1\WindowsFormsApp1\bin\Release\JournalIO.application
+C:\nodeSCRIPT\C#\Journal-IO\WindowsFormsApp1\WindowsFormsApp1\bin\Release\JournalIO.exe
+C:\nodeSCRIPT\C#\Journal-IO\WindowsFormsApp1\WindowsFormsApp1\bin\Release\JournalIO.pdb
+C:\nodeSCRIPT\C#\Journal-IO\WindowsFormsApp1\WindowsFormsApp1\bin\Release\Newtonsoft.Json.dll
+C:\nodeSCRIPT\C#\Journal-IO\WindowsFormsApp1\WindowsFormsApp1\bin\Release\Newtonsoft.Json.xml
+C:\nodeSCRIPT\C#\Journal-IO\WindowsFormsApp1\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Main.resources
+C:\nodeSCRIPT\C#\Journal-IO\WindowsFormsApp1\WindowsFormsApp1\obj\Release\JournalIO.Form2.resources
+C:\nodeSCRIPT\C#\Journal-IO\WindowsFormsApp1\WindowsFormsApp1\obj\Release\JournalIO.Properties.Resources.resources
+C:\nodeSCRIPT\C#\Journal-IO\WindowsFormsApp1\WindowsFormsApp1\obj\Release\WindowsFormsApp1.csproj.GenerateResource.Cache
+C:\nodeSCRIPT\C#\Journal-IO\WindowsFormsApp1\WindowsFormsApp1\obj\Release\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\nodeSCRIPT\C#\Journal-IO\WindowsFormsApp1\WindowsFormsApp1\obj\Release\JournalIO.exe.manifest
+C:\nodeSCRIPT\C#\Journal-IO\WindowsFormsApp1\WindowsFormsApp1\obj\Release\JournalIO.application
+C:\nodeSCRIPT\C#\Journal-IO\WindowsFormsApp1\WindowsFormsApp1\obj\Release\JournalIO.exe
+C:\nodeSCRIPT\C#\Journal-IO\WindowsFormsApp1\WindowsFormsApp1\obj\Release\JournalIO.pdb
